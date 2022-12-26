@@ -1,11 +1,78 @@
-.App {
-  text-align: center;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+.NavbarCSS{
+  border: 10px;
+  background-color:antiquewhite;
+  width: 100%;
+  padding: 10px;
+  display: inline-flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color: white;
 }
+
+.Navitems{
+ 
+ 
+  display: inline-flex;
+  font-size: 20px;
+  
+
+  
+}
+
+.home{
+   /* justify-content: end; */
+  position:absolute; right:400px
+
+ 
+}
+.about{
+  position:absolute; right: 300px;
+}
+.price{
+  position:absolute; right: 200px;
+}
+
+.program{
+  position:absolute; right: 100px;
+}
+
+
+li{
+  list-style: none;
+  padding: 5px;
+  margin: 20px;
+  align-items: flex-end;
+  float: right;
+  /* position:absolute; right:80px */
+  
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
