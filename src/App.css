@@ -1,59 +1,59 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 
-.NavbarCSS{
+
+.NavbarCSS {
   border: 10px;
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   width: 100%;
   padding: 10px;
   display: inline-flex;
 }
 
-h1{
+h1 {
   color: white;
 }
 
-.Navitems{
- 
- 
+.Navitems {
+
+
   display: inline-flex;
   font-size: 20px;
-  
 
-  
-}
 
-.home{
-   /* justify-content: end; */
-  position:absolute; right:400px
 
- 
-}
-.about{
-  position:absolute; right: 300px;
-}
-.price{
-  position:absolute; right: 200px;
-}
-
-.program{
-  position:absolute; right: 100px;
 }
 
 
-li{
+.home {
+  position: absolute;
+  right: 400px
+}
+
+.about {
+  position: absolute;
+  right: 300px;
+}
+
+.price {
+  position: absolute;
+  right: 200px;
+}
+
+.program {
+  position: absolute;
+  right: 100px;
+}
+
+
+li {
   list-style: none;
   padding: 5px;
   margin: 20px;
   align-items: flex-end;
   float: right;
-  /* position:absolute; right:80px */
-  
 
-
-  
 }
+
 
 
 
@@ -99,6 +99,7 @@ li{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,10 +1,21 @@
 import React from 'react'
+import Back from "../images/backImage.jpg"
 
-export default function Home() {
+
+var sectionStyle = {
+  width: "211vh",
+  height: '100vh',
+  fontSize: '50px',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  backgroundImage: `url(${Back})`
+}
+function Home() {
   return (
-    <div>
-    <h1> Home Page </h1>
-      
+    <div style={sectionStyle} >
+      Home
     </div>
   )
 }
+
+export default Home

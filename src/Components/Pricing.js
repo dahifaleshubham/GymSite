@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Pricing = () => {
+function Pricing() {
   return (
     <div>
-      <h1> Price Page</h1>
+      Pricing
     </div>
   )
 }

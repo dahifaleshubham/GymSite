@@ -1,10 +1,8 @@
 import React from 'react'
 
-const Program = () => {
+function Program() {
   return (
-    <div>
-      <h1>Program Page</h1>
-    </div>
+    <div>Program</div>
   )
 }
 
