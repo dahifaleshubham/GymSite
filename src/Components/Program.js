@@ -1,11 +1,10 @@
 import React from 'react'
 
-const Program = () => {
+export default function Program() {
   return (
     <div>
-      <h1>Program Page</h1>
+      program
     </div>
   )
 }
 
-export default Program

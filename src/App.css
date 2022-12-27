@@ -24,6 +24,7 @@ h1{
   
 }
 
+
 .home{
    /* justify-content: end; */
   position:absolute; right:400px
@@ -49,10 +50,7 @@ li{
   align-items: flex-end;
   float: right;
   /* position:absolute; right:80px */
-  
 
-
-  
 }
 
 

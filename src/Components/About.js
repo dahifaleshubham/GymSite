@@ -1,9 +1,9 @@
 import React from 'react'
 
-const About = () => {
+function About() {
   return (
     <div>
-      <h1> About Gym </h1>
+      about
     </div>
   )
 }
