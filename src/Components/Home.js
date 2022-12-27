@@ -1,5 +1,5 @@
 import React from 'react'
-import Back from "../images/backImage.jpg"
+import Back from "../images/backimage.jpg"
 
 
 var sectionStyle = {
