@@ -12,10 +12,11 @@ function Navbar() {
 
                 <div>
                     <ul className="Navitems" >
-                        <li className="home"> <NavLink to="/">  Home</NavLink></li>
+                        <li className="home"> <NavLink to="/">Home</NavLink></li>
                         <li className="about" ><NavLink to="/about"> About</NavLink></li>
                         <li className="price"><NavLink to="/pricing"> Pricing</NavLink></li>
                         <li className="program"><NavLink to="/program"> Program</NavLink></li>
+                        <button className="program"><NavLink to="/register"> Register</NavLink></button>
                     </ul>
                 </div>
 

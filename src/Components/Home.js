@@ -3,7 +3,7 @@ import Back from "../images/backimage.jpg"
 
 
 var sectionStyle = {
-  width: "211vh",
+  width: "202vh",
   height: '100vh',
   fontSize: '50px',
   backgroundSize: 'cover',
@@ -15,7 +15,7 @@ function Home() {
     <div style={sectionStyle} >
       Home
     </div>
-  )
+  ) 
 }
 
 export default Home
