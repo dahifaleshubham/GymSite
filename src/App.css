@@ -1,0 +1,95 @@
+
+* {
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+
+
+
+h1{
+color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+.court{
+
+  color: white;
+  position: absolute;
+  /* font-size: medium; */
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+
+  #btnClear{
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  border-radius: 100px;
+
+}
+
+#btnSearch{
+
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  border-radius: 100px;
+
+}
+
+span{
+  color: red;
+}
+
+
+#btnSearch,
+#btnClear{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.card{
+  position: absolute;
+  padding-top: 75px;
+
+}
+
+/* .carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+} */
