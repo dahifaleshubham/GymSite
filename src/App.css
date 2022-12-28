@@ -5,9 +5,14 @@
 .NavbarCSS{
   border: 10px;
   background-color:antiquewhite;
-  width: 100%;
+  width: 98.5%;
   padding: 10px;
   display: inline-flex;
+
+}
+.sticky{
+  position: fixed;
+  top: 0px;
 }
 
 h1{
@@ -15,21 +20,12 @@ h1{
 }
 
 .Navitems{
- 
- 
   display: inline-flex;
   font-size: 20px;
   
-
-  
 }
-
-
 .home{
-   /* justify-content: end; */
   position:absolute; right:400px
-
- 
 }
 .about{
   position:absolute; right: 300px;
@@ -53,12 +49,52 @@ li{
 
 }
 
+.homeBody{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
+}
+h4{
+  color:white;
+  margin: 0px;
+  font-size: 32px;
+}
+span{
+  color: red;
+}
+.bodyContent{
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+ 
+ 
+}
 
+/* .btnClass{
+  position: absolute; right: 300px;
+} */
+.signup{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 80px;
+}
 
+.details{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: red;
+  margin:50px;
+}
 
-
-
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color: bisque;
+}
 
 
 

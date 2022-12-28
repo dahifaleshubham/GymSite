@@ -1,0 +1,30 @@
+.name {
+
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+
+}
+
+.container {
+    margin: 60px;
+   
+    text-align: center;
+   
+}
+
+.submit {
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(158, 229, 158);
+    padding: 8px, 2px;
+}
+
+.element {
+    background-color: beige;
+    padding: 10px;
+    /* background-color: aqua; */
+}
