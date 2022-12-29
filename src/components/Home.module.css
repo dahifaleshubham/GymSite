@@ -1,0 +1,28 @@
+
+.bhuvi{
+    color: white;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      
+    }
+
+
+  
+  span{
+    color: red;
+  }
+  
+  .court{
+
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+
+  

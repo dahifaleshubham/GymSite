@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import "bootstrap/dist/css/bootstrap.css"
+import style from "./Home.module.css";
 import imn from  "../images/sum.jpg"
 const Home = () => {
 
@@ -11,21 +11,24 @@ const Home = () => {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: "center",
-
+    width:"100%", 
+    
 };
 
   return (
     <div style={myStyle}>
-    <h1>MAKE YOU A BODY <span>BUILDER</span> </h1>
+    <h1 className={style.bhuvi} >MAKE YOU A BODY <span>BUILDER</span> </h1>
     <div>
       <div>
-        <h2 className="court">“If you want something you've never had, you must be willing to do something you've never done.”</h2>
+        <h2 className={style.court}>“If you want something you've never had, you must be willing to do something you've never done.”</h2>
       </div>
-    <div className="col-sm-12 text-center">
+    <div>
+    <NavLink  to="/details">
+    <button type="button" id='na' class="btn btn-danger btn-lg">Detail</button>
+         </NavLink>
     <NavLink  to="/signup">
-    <button id="btnSearch" className="btn btn-primary btn-md center-block " Style="width: 100px;" OnClick="btnSearch_Click" >SignUp</button>
-    </NavLink>
-         <button id="btnClear" className="btn btn-danger btn-md center-block" Style="width: 100px;" OnClick="btnClear_Click" >Details</button>
+    <button type="button" id='nb' class="btn btn-primary btn-lg">Signup</button>
+         </NavLink>
      </div>
     </div>
   </div>

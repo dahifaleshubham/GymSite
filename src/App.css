@@ -24,72 +24,69 @@
 }
 
 
+.card{
+  position: absolute;
+  padding-top: 75px;
+  display: flex;
+
+} 
 
 
-h1{
-color: white;
-    position: absolute;
-    top: 40%;
-    left: 50%;
+.btn-danger{
+
+  position: absolute;
+    top: 70%;
+    left: 45%;
     transform: translate(-50%, -50%);
-  
-}
-.court{
-
-  color: white;
-  position: absolute;
-  /* font-size: medium; */
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-
+    
 }
 
 
-  #btnClear{
-  position: absolute;
-  top: 70%;
-  left: 45%;
-  transform: translate(-50%, -50%);
+
+#na{
   border-radius: 100px;
-
 }
-
-#btnSearch{
-
+#nb{
+  border-radius: 100px;
   position: absolute;
   top: 70%;
   left: 55%;
   transform: translate(-50%, -50%);
-  border-radius: 100px;
-
-}
-
-span{
-  color: red;
 }
 
 
-#btnSearch,
-#btnClear{
-    display: inline-block;
-    vertical-align: top;
-}
-
-
-.card{
+#carouselExampleIndicators{
+  width: 500px;
   position: absolute;
-  padding-top: 75px;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.dum{
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+
+}
+.dum1{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+
+}
+.dum2{
+  position: absolute;
+  top: 60%;
+  left: 69%;
+  transform: translate(-50%, -50%);
 
 }
 
-/* .carousel-control-prev,
-.carousel-control-next {
-  background-color: #e1e1e1;
-  width: 5vh;
-  height: 5vh;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-} */
+
+
+

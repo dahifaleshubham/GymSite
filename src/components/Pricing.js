@@ -13,7 +13,7 @@ const Pricing = () => {
 };
   return (
     <>
-    <div style={myStyle}></div>
+    <div style={myStyle}/>
       <div className="row row-cols-1 row-cols-md-3 g-4"  >
         <div className={style.col} style={{ width: "22rem" }}>
           <div className="card" style={{ width: "19rem", paddingLeft: "10px" }}>
@@ -28,12 +28,6 @@ const Pricing = () => {
               </ul>
             </div>
             <div className="card-body">
-              {/* <h5 className="card-title">Yoga</h5>
-              <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p> */}
               <a href="/signup" className="btn btn-primary">
                 Signup Now
               </a>
@@ -53,12 +47,6 @@ const Pricing = () => {
               </ul>
             </div>
             <div className="card-body">
-              {/* <h5 className="card-title">Boxing</h5>
-              <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p> */}
               <a href="/signup" className="btn btn-primary">
                 Signup Now
               </a>
@@ -78,12 +66,6 @@ const Pricing = () => {
               </ul>
             </div>
             <div className="card-body">
-              {/* <h5 className="card-title">Dancing</h5>
-              <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p> */}
               <a href="/signup" className="btn btn-primary">
                 Signup Now
               </a>
@@ -91,6 +73,7 @@ const Pricing = () => {
           </div>
         </div>
       </div>
+
     </>
   );
 };

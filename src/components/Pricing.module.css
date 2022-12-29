@@ -1,7 +1,7 @@
 .col{
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
 
@@ -9,14 +9,14 @@
 .col1{
     position: absolute;
     top: 50%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 .col2{
     position: absolute;
     top: 50%;
-    left: 85%;
+    left: 80%;
     transform: translate(-50%, -50%);
     text-align: center;
     

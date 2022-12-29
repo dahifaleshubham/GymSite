@@ -8,6 +8,8 @@ import About from "./components/About";
 import Pricing from "./components/Pricing";
 import Program from "./components/Program";
 import Signup from "./components/Signup";
+import Details from "./components/Details";
+import Footer from "./components/Footer";
 
 
 
@@ -21,8 +23,11 @@ export default function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/program" element={<Program />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/details" element={<Details />} />
+        <Route path="/footer" element={ <Footer/>} />
 
       </Routes>
+      <Footer/>
 
     </>
   );
