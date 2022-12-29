@@ -9,6 +9,7 @@ import { Routes, Route } from "react-router-dom"
 import Footer from "./Components/Footer";
 import SignUp from "./Components/SignUp";
 import Details from "./Components/details";
+import Knowmore from "./Components/Knowmore";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
 
         <Route path="/signup" element={<SignUp />} />
         <Route path="/view" element={<Details />} />
+        <Route path="/knowmore" element={<Knowmore/>}/>
       </Routes>
 
       {/*  */}
